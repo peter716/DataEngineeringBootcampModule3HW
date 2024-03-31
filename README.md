@@ -2,11 +2,13 @@
 
 
 -- Creating external table referring to gcs path
-`CREATE OR REPLACE EXTERNAL TABLE `digital-gearbox-411612.ny_taxi.external_green_tripdata`
+```sql
+CREATE OR REPLACE EXTERNAL TABLE `digital-gearbox-411612.ny_taxi.external_green_tripdata`
 OPTIONS (
   format = 'PARQUET',
   uris = ['gs://homework-3-parquets/green/green_tripdata_2022-*.parquet']
-);`
+);
+```
 
 `DROP TABLE IF EXISTS digital-gearbox-411612.ny_taxi.green_tripdata_table;`
 
