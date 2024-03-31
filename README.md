@@ -1,4 +1,4 @@
-# DataEngineeringBootcampModule3HW
+This is the 3rd module of the data engineering zoomcamp, which covers creating external tables, partitioning and clustering the table, and more.
 
 
 -- Creating external table referring to gcs path
